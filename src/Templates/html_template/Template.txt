@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+<title>1C ACE Editor</title>
+<style type="text/css" media="screen">
+    #editor { 
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+</style>
+</head>
+
+<body>
+<div id="editor" charset="utf-8">
+{{editor}}
+</div>
+<script type="text/javascript" charset="utf-8">
+{{ace}}
+</script>
+<script>
+{{theme}}
+</script>
+<script>
+{{mode}}
+</script>
+<script>
+    var editor = ace.edit("editor");
+    editor.setTheme("ace/theme/{{theme_name}}");
+    editor.session.setMode("ace/mode/{{mode_name}}");
+</script>
+</body>
+
+</html>

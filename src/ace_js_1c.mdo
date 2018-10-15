@@ -1,0 +1,1806 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e19650e7-e01d-4c67-a18b-2a022bd9805b">
+  <producedTypes>
+    <objectType typeId="c825c731-e5c4-46e1-8f50-5013e6fee5ac" valueTypeId="c5aaa2b3-6fbf-4f87-88a7-b3f9ce379721"/>
+  </producedTypes>
+  <name>ace_js_1c</name>
+  <synonym>
+    <key>ru</key>
+    <value>1с-ace-js</value>
+  </synonym>
+  <comment></comment>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="183ed5de-37ed-43c1-8988-3bfad651ee42"/>
+  <defaultForm>ExternalDataProcessor.ace_js_1c.Form.Форма</defaultForm>
+  <forms uuid="609768a3-a580-4012-bd25-38a09ed8b6d6">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="50073507-61d1-49ca-9901-320fbfe5909a">
+    <name>html_template</name>
+    <synonym>
+      <key>ru</key>
+      <value>html template</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="950763b4-778b-4d1a-9d00-cfd91b2d4f89">
+    <name>ace</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ace</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="56b0eb59-d0de-49b3-a176-c47c52ec8b09">
+    <name>theme_ambiance</name>
+    <synonym>
+      <key>ru</key>
+      <value>ambiance</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="2d766910-145b-4963-8c25-233957a7e440">
+    <name>theme_chaos</name>
+    <synonym>
+      <key>ru</key>
+      <value>chaos</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="8ef56d60-7779-4af4-b83b-c57341f9c7f3">
+    <name>theme_chrome</name>
+    <synonym>
+      <key>ru</key>
+      <value>chrome</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="4b2c57fc-a4b0-4e66-981a-a18d3c64fca0">
+    <name>theme_clouds</name>
+    <synonym>
+      <key>ru</key>
+      <value>clouds</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="0e989bcb-09c5-4b6f-bd55-dd50c953325b">
+    <name>theme_clouds_midnight</name>
+    <synonym>
+      <key>ru</key>
+      <value>clouds-midnight</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="05913bfa-a1bc-4a8d-8b64-4cd5afeae1a4">
+    <name>theme_cobalt</name>
+    <synonym>
+      <key>ru</key>
+      <value>cobalt</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="4dc041c3-1e83-4715-8e95-ccea443d9270">
+    <name>theme_crimson_editor</name>
+    <synonym>
+      <key>ru</key>
+      <value>crimson editor</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="eec0b725-cbc2-4fd4-bf78-d55b3b745dca">
+    <name>theme_dawn</name>
+    <synonym>
+      <key>ru</key>
+      <value>dawn</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="bfb90f9b-1cc6-4e54-a895-c5d9760592f6">
+    <name>theme_dracula</name>
+    <synonym>
+      <key>ru</key>
+      <value>Theme dracula</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="be34f58f-1eb3-44ae-a2cd-1d4e6701f603">
+    <name>theme_dreamweaver</name>
+    <synonym>
+      <key>ru</key>
+      <value>Theme dreamweaver</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="a9159292-132b-4914-b268-9710ec90fe50">
+    <name>theme_eclipse</name>
+    <synonym>
+      <key>ru</key>
+      <value>Theme eclipse</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="84518c43-8db0-4cad-8862-70f09ad3efc8">
+    <name>theme_github</name>
+    <synonym>
+      <key>ru</key>
+      <value>github</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="08db4106-1350-4b33-b1e5-de8cd756ba12">
+    <name>theme_gob</name>
+    <synonym>
+      <key>ru</key>
+      <value>Theme gob</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="8ac65fca-b14e-4015-bf2b-8c7a2bb10d25">
+    <name>theme_gruvbox</name>
+    <synonym>
+      <key>ru</key>
+      <value>Theme gruvbox</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="261a569b-51e6-44b8-a55b-eeaaec5784e3">
+    <name>theme_idle_fingers</name>
+    <synonym>
+      <key>ru</key>
+      <value>Theme idle fingers</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="e484618f-14b3-4dc8-afbf-e16d8eb8ab76">
+    <name>theme_iplastic</name>
+    <synonym>
+      <key>ru</key>
+      <value>Theme iplastic</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="8feca732-4181-4d24-8e53-3dea90ec8bc2">
+    <name>theme_katzenmilch</name>
+    <synonym>
+      <key>ru</key>
+      <value>Theme katzenmilch</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="462477d6-d6e7-4f17-82c0-05dd2db25c6b">
+    <name>theme_kr_theme</name>
+    <synonym>
+      <key>ru</key>
+      <value>Theme kr theme</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="a787868e-aeb6-4124-8968-a5d452585b74">
+    <name>theme_kuroir</name>
+    <synonym>
+      <key>ru</key>
+      <value>Theme kuroir</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="98db9741-b580-466f-b2fd-26c36ddc7253">
+    <name>theme_merbivore</name>
+    <synonym>
+      <key>ru</key>
+      <value>Theme merbivore</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="03ff6958-3fa8-4dc4-888d-d06c955c8c07">
+    <name>theme_merbivore_soft</name>
+    <synonym>
+      <key>ru</key>
+      <value>Theme merbivore soft</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="870c847e-3602-4428-beb5-4a8bba595ec4">
+    <name>theme_monokai</name>
+    <synonym>
+      <key>ru</key>
+      <value>monokai</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="870e0a27-1246-431e-976b-8dd0b754fd4a">
+    <name>theme_mono_industrial</name>
+    <synonym>
+      <key>ru</key>
+      <value>Theme mono industrial</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="7ef10b09-a91d-4eea-b3c9-48e512ffcecc">
+    <name>theme_pastel_on_dark</name>
+    <synonym>
+      <key>ru</key>
+      <value>Theme pastel on dark</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="bfa48dbb-5518-431a-a364-226b8285829c">
+    <name>theme_solarized_dark</name>
+    <synonym>
+      <key>ru</key>
+      <value>Theme solarized dark</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="01bfe8ff-39eb-4196-b0f6-9bd23b1aa414">
+    <name>theme_solarized_light</name>
+    <synonym>
+      <key>ru</key>
+      <value>Theme solarized light</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="d309c813-f3d5-483d-96ce-fc269ad2d5a8">
+    <name>theme_sqlserver</name>
+    <synonym>
+      <key>ru</key>
+      <value>Theme sqlserver</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="363afc92-7a22-4e3a-9c86-ebc5e9b952b9">
+    <name>theme_terminal</name>
+    <synonym>
+      <key>ru</key>
+      <value>Theme terminal</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="522f4ff5-fdd0-4e2b-b6f8-070a53cb090e">
+    <name>theme_textmate</name>
+    <synonym>
+      <key>ru</key>
+      <value>Theme textmate</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="ed87b332-8e68-47ee-8df7-10f2819fd3e0">
+    <name>theme_tomorrow</name>
+    <synonym>
+      <key>ru</key>
+      <value>Theme tomorrow</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="39c222d6-bbab-4c2d-a983-3a3dce13e726">
+    <name>theme_tomorrow_night</name>
+    <synonym>
+      <key>ru</key>
+      <value>Theme tomorrow night</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="2a2d78f3-12b9-485d-b0cb-61198e636f87">
+    <name>theme_tomorrow_night_blue</name>
+    <synonym>
+      <key>ru</key>
+      <value>Theme tomorrow night blue</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="33086521-70ef-4a47-91a1-6fa23f4384f0">
+    <name>theme_tomorrow_night_bright</name>
+    <synonym>
+      <key>ru</key>
+      <value>Theme tomorrow night bright</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="0dd7917e-26a3-47a6-bd33-411e5364b0e8">
+    <name>theme_tomorrow_night_eighties</name>
+    <synonym>
+      <key>ru</key>
+      <value>Theme tomorrow night eighties</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="1e255bf4-4c6f-467a-bebc-6c92450db069">
+    <name>theme_twilight</name>
+    <synonym>
+      <key>ru</key>
+      <value>Theme twilight</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="70014830-bda2-4eb4-a3c8-cf296b9d1339">
+    <name>theme_vibrant_ink</name>
+    <synonym>
+      <key>ru</key>
+      <value>Theme vibrant ink</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="d14fbeb4-d265-4918-a2cc-518bf03f8480">
+    <name>theme_xcode</name>
+    <synonym>
+      <key>ru</key>
+      <value>Theme xcode</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="40e0a31e-1b62-449d-a9f8-785448a4b6ab">
+    <name>mode_abap</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="a5fcf4fe-59ca-4d46-808c-84c319d5c86e">
+    <name>mode_abc</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="3bc1ee3d-85c7-45ed-b56f-4894308694d0">
+    <name>mode_actionscript</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="df822821-6c1f-47f9-b2c9-5a0402d26f0f">
+    <name>mode_ada</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="0ea19c2a-7c74-4157-b946-d9fbde72c5fd">
+    <name>mode_apache_conf</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="44874caf-d1bd-4bcf-906e-2c89c2adf4d0">
+    <name>mode_applescript</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="b02961d5-2a2c-4e6b-8591-e53d08b5b4e6">
+    <name>mode_asciidoc</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="cd6b9332-1725-4118-97d1-950dade51a4c">
+    <name>mode_asl</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="81c0d118-ef02-4aa2-8389-5368f21dc4a9">
+    <name>mode_assembly_x86</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="84cb6d51-ee50-4a41-8159-7386924c59bf">
+    <name>mode_autohotkey</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="1e1a6ae5-0481-4c1b-8ac4-22637f437de6">
+    <name>mode_batchfile</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="4dbfeef8-2db4-479a-ab29-f4f2234e74c2">
+    <name>mode_bro</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="18fd135b-2202-49ed-9464-45ac689f5b8b">
+    <name>mode_c_cpp</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="ced8679e-9bad-4204-8543-5f2f58a713b0">
+    <name>mode_c9search</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="fa983a81-3702-456d-ab68-5c160c4b4ca6">
+    <name>mode_cirru</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="947dc3e4-661e-49b7-999a-35de269e6bc2">
+    <name>mode_clojure</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="68c69bad-fc6a-46a9-b8fb-3c4861c60747">
+    <name>mode_cobol</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="6b83bd05-cd91-467c-a621-c2e63f4525ec">
+    <name>mode_coffee</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="249d15d3-9373-481e-b915-45ee16604a59">
+    <name>mode_coldfusion</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="fc47ca97-5013-419e-aa35-c3d47413e18c">
+    <name>mode_csharp</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="3e40becd-acb8-49fd-b5d2-aa70ddd3ba17">
+    <name>mode_csound_document</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="e42d8c72-55a0-4ffe-a1ba-7d00c5a86f45">
+    <name>mode_csound_orchestra</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="4a31425c-7124-4e67-b460-6223543a8712">
+    <name>mode_csound_score</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="5d5947b1-921a-486c-a2ea-e4407e2b8686">
+    <name>mode_csp</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="c4dcf94e-bc45-416c-8bba-c3cc2d09f445">
+    <name>mode_css</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="354473ef-8574-417f-b7a8-a1935c999ad7">
+    <name>mode_curly</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="3789d395-4b3d-4388-a98c-ded80946c526">
+    <name>mode_d</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="8b4a0e31-8603-4bac-a960-e06db4f5c8e7">
+    <name>mode_dart</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="3e8a98e4-f366-430f-a743-657f30d5b3ad">
+    <name>mode_diff</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="0e293afc-6489-4ac9-8e58-54fadc801e63">
+    <name>mode_django</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="431005d6-55d9-4167-9eda-0d96830462a7">
+    <name>mode_dockerfile</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="e7473561-2fa3-4e43-bacd-5c4a93daf6f0">
+    <name>mode_dot</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="2b8374ed-3985-4d56-a23c-910177b19805">
+    <name>mode_drools</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="d12c1a37-7661-40ed-b23f-2a30d457d9dd">
+    <name>mode_edifact</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="0836ce1c-180c-4757-bcf0-06cf64775228">
+    <name>mode_eiffel</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="4dc84cef-a3f6-4feb-83bf-4c9324010bbd">
+    <name>mode_ejs</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="a81b5db0-452c-45ed-b2f5-822751a91936">
+    <name>mode_elixir</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="b16c99c9-a45e-4d06-bbc8-f71cd3d51614">
+    <name>mode_elm</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="71dfcb74-6c70-48e5-9982-8f2a68eb7dbe">
+    <name>mode_erlang</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="a6d4ce60-1ed7-4ef6-a1a9-a8045cc33426">
+    <name>mode_forth</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="944bd5f6-5bac-42d7-99a8-4edbdaddecac">
+    <name>mode_fortran</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="f61a858d-f614-40aa-9a34-b10eab69d937">
+    <name>mode_fsharp</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="9a38ead1-0995-4c78-8d70-87cf4eac5668">
+    <name>mode_ftl</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="e0a1fb02-059f-4bc4-bba2-097a48631b11">
+    <name>mode_gcode</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="033010c1-3d21-4501-a4d7-609f5efffff3">
+    <name>mode_gherkin</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="412d8ba3-3cf9-4682-8829-47d42a7fca2c">
+    <name>mode_gitignore</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="8dba887c-5b7a-4967-8bb7-d295748eca83">
+    <name>mode_glsl</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="4b1a0852-81da-4975-a41c-4ae47bdf2c99">
+    <name>mode_gobstones</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="bcf0c34e-6711-4708-9512-8562608ec745">
+    <name>mode_golang</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="5fa33494-8964-4fb1-baef-ee7fa9895576">
+    <name>mode_graphqlschema</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="4d799e85-6e3e-4b59-bd58-502b5383b65b">
+    <name>mode_groovy</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="2e0e61f9-e119-4f62-87b5-4e09b980f223">
+    <name>mode_haml</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="fe7b31f4-bc0f-4b68-aa0a-1632306b1b78">
+    <name>mode_handlebars</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="4bb364ef-a48f-42ec-9b57-1c070876b4ae">
+    <name>mode_haskell</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="e147c741-fe48-480e-b6d9-2fe37c632c42">
+    <name>mode_haskell_cabal</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="f37b4ed8-6527-4a84-81a6-45136379bef3">
+    <name>mode_haxe</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="bda03e40-1d62-4f7f-b609-671e27033621">
+    <name>mode_hjson</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="9e582451-d9d3-420b-950e-d8d571b3b54e">
+    <name>mode_html</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="a1f491db-4680-406d-95b1-b088a89dd1ef">
+    <name>mode_html_elixir</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="0e3182cb-9879-46ed-b5d9-ac85c25c1ffc">
+    <name>mode_html_ruby</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="054b184f-f54e-4967-a140-c8fbbf4d300a">
+    <name>mode_ini</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="c843b0fa-e361-432c-8155-070d8c8aa8e2">
+    <name>mode_io</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="b9cc8fca-6be9-4580-b1df-edd53a59bdb4">
+    <name>mode_jack</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="d8168880-d973-4e87-8747-a400d4c8839c">
+    <name>mode_jade</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="5124ab1f-18a8-496c-aead-407a256ff559">
+    <name>mode_java</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="246660bf-d772-464e-ba6f-df383b3cae5c">
+    <name>mode_javascript</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="fa0622f2-a8ad-4f46-90fb-495e1efdb32a">
+    <name>mode_json</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="a2df44af-ae10-48fa-9c8f-bd8c88cc0cf3">
+    <name>mode_jsoniq</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="40d2d287-3387-4e80-a4d0-c643f6c619ab">
+    <name>mode_jsp</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="4de331b7-71d9-4e0b-878f-ba9df2a89330">
+    <name>mode_jssm</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="434b609b-6489-4c39-abff-f2049e26cd2c">
+    <name>mode_jsx</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="7066bd80-1f9c-4025-8c34-9cd1c5b952db">
+    <name>mode_julia</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="99871954-5ec3-4f1f-8749-0fe5c139370e">
+    <name>mode_kotlin</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="e4d91cec-3402-4d48-820f-c91b388bb7a1">
+    <name>mode_latex</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="95b492fe-546e-4726-a71d-1c4ceef184ae">
+    <name>mode_less</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="d2391755-b51a-4c53-8676-09cd4d827e91">
+    <name>mode_liquid</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="d10a90db-55e4-4542-b05e-65eec76ead6e">
+    <name>mode_lisp</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="6aa5269e-403b-4cfc-82f6-52bbc506db2b">
+    <name>mode_livescript</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="0ac7cb53-3c59-4d05-af2a-bd9afa6c7c40">
+    <name>mode_logiql</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="678725b9-df05-4e3b-a3cb-cfffdfaf3a84">
+    <name>mode_lsl</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="965c30b5-b382-4e78-bf0a-3866c2ea5b3b">
+    <name>mode_lua</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="7588e4c3-b9da-4fb9-a7ec-6a151550d4cb">
+    <name>mode_luapage</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="bb7fc6da-6eb2-415a-bf4b-8a2cfb1dec26">
+    <name>mode_lucene</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="0f1448c3-6901-4d2a-8937-28d972790e95">
+    <name>mode_makefile</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="924557b6-1d83-4f98-9cc4-9136b68c986f">
+    <name>mode_markdown</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="42207f93-97b1-40bd-93ab-fdad39791832">
+    <name>mode_mask</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="988eb56b-e49a-4310-b253-6cdcdef83e11">
+    <name>mode_matlab</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="b90ea7ac-9b10-40ed-8320-5540c15d685e">
+    <name>mode_maze</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="d29b8047-5c74-4864-b942-6090a18eaf6f">
+    <name>mode_mel</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="7fb116d1-53fc-4c84-ab28-37f37e0f2323">
+    <name>mode_mixal</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="45f0ab47-8f9e-47a1-8563-9b1edc986baf">
+    <name>mode_mushcode</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="4ebb418c-f015-4d1a-a631-cb918b0f11d5">
+    <name>mode_mysql</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="b29400e2-bb09-4d2f-88c1-2ed5e70d0f4c">
+    <name>mode_nix</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="e21f14db-b999-423d-b5fc-e9ffbf2da42e">
+    <name>mode_nsis</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="5754210f-53fa-419e-b83a-84c7a4476c17">
+    <name>mode_objectivec</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="eaff0b81-b345-4b40-b686-56e33ae05cdd">
+    <name>mode_ocaml</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="58d17958-1f5c-48f3-9ce9-487f3de35d9c">
+    <name>mode_pascal</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="3ccbe53e-7ac3-4a44-b6a9-4b2da50c145d">
+    <name>mode_perl</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="407891ae-e3c1-429e-839d-7b66445e23b5">
+    <name>mode_pgsql</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="682e172b-34ad-4f30-9110-7d7ee5d25a34">
+    <name>mode_php</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="ed1f3a83-1f0b-4cb2-95a9-82a9f720f9bc">
+    <name>mode_php_laravel_blade</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="861678ea-f365-4c73-a735-dba12c0e7cad">
+    <name>mode_pig</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="2254cb5a-d6ca-4a7b-89d1-db6b0892d83f">
+    <name>mode_plain_text</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="0f71758e-8285-44d7-a2a4-5d4b558bcbc6">
+    <name>mode_powershell</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="5babdf8a-270d-4d91-abd6-8ff99e85f78e">
+    <name>mode_praat</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="81f68c71-86e8-4a6c-986d-786aef6d3706">
+    <name>mode_prolog</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="b08260cb-7688-4aa3-833c-d1a8a320b58c">
+    <name>mode_properties</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="0310cafa-6fb0-4b21-ad4b-becc68d68777">
+    <name>mode_protobuf</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="dd41b89f-c023-40e4-b9cf-e1f57845e5aa">
+    <name>mode_puppet</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="62a38257-1ec0-4d6e-817d-947bc954bf0f">
+    <name>mode_python</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="c7b59f59-0e63-4650-8574-7aecb72a0530">
+    <name>mode_r</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="7b011554-88be-4dbf-a810-fe056d2c4b67">
+    <name>mode_razor</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="d00aca41-8f9f-4608-8c70-b1e350a5e80b">
+    <name>mode_rdoc</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="4abe0f08-068c-4880-ae75-bd60ac9e97fd">
+    <name>mode_red</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="1986a256-fef4-4a8b-bee7-b505f4a72047">
+    <name>mode_redshift</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="d9bf14d4-ad97-4acd-9802-fb90c1ad4752">
+    <name>mode_rhtml</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="f0bb1f7b-b5e9-4aa0-ae91-66f1ae9428da">
+    <name>mode_rst</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="c33e5a13-973f-40ba-b54e-60b769145f5f">
+    <name>mode_ruby</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="e4fda503-6061-4dd7-9c77-a7e17faa26cf">
+    <name>mode_rust</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="13605764-2d86-4be9-a233-5d2af4678857">
+    <name>mode_sass</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="6d8b4c2d-13fd-4963-8d18-b488c88dc28a">
+    <name>mode_scad</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="9200aa4e-e4fc-421d-b288-c5a409930859">
+    <name>mode_scala</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="ddfae26d-ddba-41ff-86e5-fe121df80c4b">
+    <name>mode_scheme</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="dc1a45bd-adbb-4715-9588-c3288f676edd">
+    <name>mode_scss</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="2c7acfc8-f514-4c22-a221-72e2bb3ee793">
+    <name>mode_sh</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="b1c093b3-f2af-4067-9fb1-5d0c4379684b">
+    <name>mode_sjs</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="df553931-2586-4570-b510-d473cfb09614">
+    <name>mode_slim</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="d6edad5b-f0d5-41cd-b8b3-7b2a0161c829">
+    <name>mode_smarty</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="36cace60-7a4e-407f-b498-f17b2b1a9a71">
+    <name>mode_snippets</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="6b06000c-a484-47dd-998b-17e8405ef3c1">
+    <name>mode_soy_template</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="93e9a9ef-96a5-4148-9d29-4a0d9116ace9">
+    <name>mode_space</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="494c8d0a-51c0-450f-9397-b9b1ba462993">
+    <name>mode_sparql</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="164f5c87-0e78-48fc-86a4-f94313b36ca2">
+    <name>mode_sql</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="1bba6dcd-7be4-4b46-9aa1-ee2b49e54274">
+    <name>mode_sqlserver</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="320f1342-4ee6-4103-93e2-2aaa57e3b0b6">
+    <name>mode_stylus</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="f2d86835-0ab5-46a4-91d0-fbcc62cf42a4">
+    <name>mode_svg</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="7f7153d9-8b71-482d-bbd0-86ac8c72d820">
+    <name>mode_swift</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="813c41ec-c180-4aa7-981a-27bc537a70b0">
+    <name>mode_tcl</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="2aa8f8c9-2c69-4a84-be3f-bc3a7f671c07">
+    <name>mode_terraform</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="ba7d42ac-e16e-44c9-97bc-91259c0383c2">
+    <name>mode_tex</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="442e294d-f981-44c8-a5f0-556178f54866">
+    <name>mode_text</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="a9447a8d-aeaa-4b0a-9ee2-e1cd0f77e77c">
+    <name>mode_textile</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="fdbc2545-3034-428c-84fc-765e8cbb8805">
+    <name>mode_toml</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="f34f82c4-a730-424f-942a-054242ac8279">
+    <name>mode_tsx</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="75dbf523-58d2-43ff-9ccd-6b80091dde7c">
+    <name>mode_turtle</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="a97603d9-98ea-4371-8161-38f0ed947d1e">
+    <name>mode_twig</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="12832bc1-1828-48a5-9d71-50af9393743e">
+    <name>mode_typescript</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="7390109d-5da6-4d82-a471-ee5fd78c3bcf">
+    <name>mode_vala</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="97b17b7a-ceea-4783-8b85-b400f200e914">
+    <name>mode_vanessa</name>
+    <synonym>
+      <key>ru</key>
+      <value>vanessa</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="25eb57d1-5d5e-4291-9a4a-f3e2d88b7d4a">
+    <name>mode_vbscript</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="9eda8d39-f82a-4055-97df-9b85a59425f0">
+    <name>mode_velocity</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="f16e37c6-5dc3-4546-89bf-e16a1b8a96a7">
+    <name>mode_verilog</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="004eb253-b83a-4a74-b37b-b26d68c7abae">
+    <name>mode_vhdl</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="4e106a0d-5336-4d2c-9b16-c307d6d44ad6">
+    <name>mode_wollok</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="44fba48c-eb99-4b49-8828-a618f0ae015f">
+    <name>mode_xml</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="2ea8dd4d-baa3-4775-b8ac-0e351c25b2f7">
+    <name>mode_xquery</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="db2deae4-4237-46b1-93ae-1280fa6713d1">
+    <name>mode_yaml</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="bc918e14-d376-40e3-8cbd-d141dcb0009c">
+    <name>example_c_cpp</name>
+    <synonym>
+      <key>ru</key>
+      <value>c-cpp example</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="2ebb4646-0ed8-4b0c-8af8-71f0dea8b6aa">
+    <name>example_vanessa</name>
+    <synonym>
+      <key>ru</key>
+      <value>Vanessa example</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+</mdclass:ExternalDataProcessor>
